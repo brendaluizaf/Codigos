@@ -1,0 +1,21 @@
+Algoritmo "desafio 5"
+
+Var
+   numero: vetor[1..7,1..8] de real
+   i,j:inteiro
+   soma: real
+   operacao: inteiro
+   selecao: real
+Inicio
+   para i de 1 ate 7 faca
+      para j de 1 ate 8 faca
+         numero[i,j] <-i+j
+      fimpara
+   fimpara
+  para i de 1 ate 7 faca
+      para j de 1 ate 8 faca
+      escreva(numero[i,j]," ")
+      fimpara
+      escreval(" ")
+   fimpara
+Fimalgoritmo
